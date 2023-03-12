@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-      runtime-version:
-        php: 8.1
   build:
       commands:
         - composer install
